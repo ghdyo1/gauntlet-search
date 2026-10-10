@@ -108,7 +108,12 @@ function check(){
                 }
             }
         }
-        document.querySelector("div").innerText=b;
+        if(b!=""){
+            document.querySelector("div").innerText=b;
+        }
+        else{
+            document.querySelector("div").innerText="Пошел нахуй.";
+        }
     }
     else{
         document.querySelector("div").innerText="";
