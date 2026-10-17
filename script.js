@@ -1,4 +1,4 @@
-const g=["fire","ice","poison","shadow","lava","bonus","chaos","demon","time","crystal","magic","spike","monster","doom","death","forest","force","spooky","water","haunted","acid","power","halloween","treasure","spider","gem","inferno","portal","strange","fantasy","christmas","mystery","cursed","cyborg","castle","world","galaxy","universe","discord","split","ncs 1","ncs 2","space","cosmos","random","chance","love"];
+const g=["fire","ice","poison","shadow","lava","bonus","chaos","demon","time","crystal","magic","spike","monster","doom","death","forest","force","spooky","water","haunted","acid","power","halloween","treasure","spider","gem","inferno","portal","strange","fantasy","christmas","mystery","cursed","cyborg","castle","world","galaxy","universe","discord","split","ncs 1","ncs 2","space","cosmos","random","chance","love","duality","paradox"];
 const levels=[
     ["outerspace","overture","first race","shock","magmatic sanctuary"],//Fire
     ["amplification","skyward","carnation","geobound","polihedral"],//Ice
@@ -46,7 +46,9 @@ const levels=[
     ["the beyond","spacetime continuum","kisaragi","aperture","final orbit"],//Cosmos
     ["dimension break","krypt of krandon","dll","busted","randomverse"],//Random
     ["io","fukashigi","update disorder","dronification","project novaform"],//Chance
-    ["moonlight","amorous","fallen in love","toytime trials","wall"] //Love
+    ["moonlight","amorous","fallen in love","toytime trials","wall"],//Love
+    ["drifting fortune","goldfish glade","quality time","tragedy muse","clearing"],//Duality
+    ["the master","hyperheist","dao","master reality","quicksilver"] //Paradox
 ];
 const authors=[
     ["nicki1202","fault","stamina","danolex","radiationv2"],//Fire
@@ -95,7 +97,9 @@ const authors=[
     ["lyal","desticy","empsea","chunlv1","bli"],//Cosmos
     ["abstractdark","lightpotatodev","galofuf","whirl","minay"],//Random
     ["7ak","trms01","dangerousrobot","ivyteal","dolphe"],//Chance
-    ["unzor","jayuff","fadedcat","glubfuberz","fjud"] //Love
+    ["unzor","jayuff","fadedcat","glubfuberz","fjud"],//Love
+    ["bpi","vegtam","wistfrost","hauxz","mega0of"],//Duality
+    ["studiobois","lightpotatodev","zgalliard","fileexplorerexe","ivyteal"] //Paradox
 ];
 function check(){
     if(document.querySelector("input").value!=""){
